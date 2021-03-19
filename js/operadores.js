@@ -10,3 +10,9 @@ else {
 }
 
 
+let nombreIngresado = prompt("Ingrese nombre solamente");
+let edad = parseInt(prompt("Ingrese edad"));
+
+if ( (edad > 18) && ( (nombreIngresado == "ALE") || (nombreIngresado == "ale") )  ) {
+    alert("Hola Ale")
+}
